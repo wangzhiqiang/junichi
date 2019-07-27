@@ -26,7 +26,9 @@ $this->need('header.php');
 				</div>
 				<h1 class="title"><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h1>
 				<div class="entry-content">
-					<p><?php $this->excerpt(200);?></p>
+					<div class="post-item-warp">
+						<p><?php showThumbnail($this); ?><?php $this->excerpt(200);?></p>
+					</div>
 					<p><a href="<?php $this->permalink() ?>" class="more-link">继续阅读 »</a></p>
 				</div>
             </article>

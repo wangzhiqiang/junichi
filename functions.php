@@ -1,6 +1,18 @@
 <?php
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
+//获取文章缩略图
+function showThumbnail($widget)
+{ 
+    $attach = $widget->attachments(1)->attachment;
+    $pattern = '/\<img.*?src\=\"(.*?)\"[^>]*>/i'; 
+    if (preg_match_all($pattern, $widget->content, $thumbUrl)) {
+         echo "<div class='post-thumb'> <img class='thumb' src='".$thumbUrl[1][0]."' /></div>";
+    } elseif ($attach->isImage) {
+      echo "<div class='post-thumb'> <img class='thumb' src='".$attach->url."' /></div>";
+    } 
+}
+
 function themeConfig($form) {
 	$slogan = new Typecho_Widget_Helper_Form_Element_Text('slogan', NULL, NULL, _t('logo下边的标语'), _t('在这里输入标语'));
 	$form->addInput($slogan);
