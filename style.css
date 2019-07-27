@@ -258,7 +258,7 @@ a:hover {
 
 .container {
     position: relative;
-    max-width: 100pc;
+    max-width: 100%;
     min-height: 100%
 }
 
