@@ -384,8 +384,7 @@ article pre {
 article img {
     display: block;
     padding: 0;
-    max-width: 100%;
-    border: 1px solid #ccc
+    max-width: 100%; 
 }
 
 article table {
@@ -988,8 +987,7 @@ pre[class*=language-] {
 }
 .post-thumb {
     float: left;
-    width: 200px;
-    max-height: 150px;
+    max-width: 200px;
     overflow: hidden;
     margin: 0 20px 10px 0;
     border-radius: 5px;
