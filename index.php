@@ -1,9 +1,9 @@
 <?php
 /**
- * Junichi 是 Typecho 的一套主题模板，Junichi 这个主题的名字由来，是因为博主起名实在没天分，所以就用我宝贝儿子的英文名来命名。
+ * Arrow.Down 是 Typecho 的一套主题模板，来源于 Junichi  
  *
- * @package Junichi Theme
- * @author Jet Li
+ * @package Arrow.Down Theme
+ * @author Arrow.Down
  * @version 1.2.2
  * @link https://uefeng.com
  */
