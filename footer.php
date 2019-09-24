@@ -21,5 +21,26 @@
 <?php else : ?>
 <script src="<?php $this->options->themeUrl('js/prism.js'); ?>"></script>
 <?php endif; ?>
+
+
+
+<style type="text/css">
+#landlord {
+	position: fixed;
+	right: 30px;
+	bottom: 0;
+	width: 280px;
+	height: 250px;
+}
+</style>
+<script src="./js/live2d.js"></script>
+
+<div id="landlord">
+    <canvas id="live2d" width="280" height="250"></canvas>
+</div>
+
+<script>
+	loadlive2d("live2d", "./model/tororo.model.json");
+</script>
 </body>
 </html>
