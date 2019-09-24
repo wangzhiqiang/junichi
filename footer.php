@@ -27,8 +27,8 @@
 <style type="text/css">
 #landlord {
 	position: fixed;
-	right: 30px;
-	bottom: 0;
+	left: 30px;
+	bottom: 5;
 	width: 280px;
 	height: 250px;
 }
