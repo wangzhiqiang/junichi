@@ -9,7 +9,7 @@ function showThumbnail($widget)
     if (preg_match_all($pattern, $widget->content, $thumbUrl)) {
          echo "<div class='post-thumb'> <img class='thumb' src='".$thumbUrl[1][0]."' /></div>";
     } elseif ($attach->isImage) {
-      echo "<div class='post-thumb'> <img class='thumb' src='".$attach->url."' /></div>";
+      // echo "<div class='post-thumb'> <img class='thumb' src='".$attach->url."' /></div>";
     } 
 }
 
