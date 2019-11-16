@@ -27,15 +27,15 @@
 <style type="text/css">
 #landlord {
 	position: fixed;
-	left: 30px;
+	left: 150px;
 	bottom: 0px;
-	width: 280px;
-	height: 250px;
+	width: 140px;
+	height: 125px;
 }
 </style>
 <script src="<?php $this->options->themeUrl('js/live2d.js');?>"></script>
 <div id="landlord">
-    <canvas id="live2d" width="280" height="250"></canvas>
+    <canvas id="live2d" width="140" height="125"></canvas>
 </div>
 <script>
 	loadlive2d("live2d","<?php $this->options->themeUrl('model/tororo.model.json');?>");
