@@ -179,21 +179,21 @@ a:hover {
     outline-style: none;
     border: 0;
     border-radius: 0;
-    background: #fff;
+    background: #f8f8f8;
     font-size: 20px
 }
 
 .search-show #search {
-    height: 30px;
+    height: 36px;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0)
 }
 
 .search-show #search input {
-    height: 40px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    text-align: left
+    height: 36px;
+    border: 1px solid #dc9987;
+    border-radius: 18px;
+    text-align: center
 }
 
 #wechat {
